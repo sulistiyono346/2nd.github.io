@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form Sign Up</title>
+</head>
+<body>
+  <h1>Buat Account Baru !</h1>
+  <h3> Sign Up Form</h3>
+  <Form action ="welcome.html" method="POST">
+    <p>
+      <label for="First-name">First name :</label>
+      <p>
+        <input id="lirst-name" name="first-name" type="text">
+      </p>
+    </p>
+    <p>
+      <label for="Last-name">Last name :</label>
+      <p>
+        <input id="last-name" name="last-name" type="text">
+      </p>
+    </p>
+    <p>
+      <label for="gender">Gender:</label>
+      <p>
+        <input id="male-radio" type="radio" name="gender" value="male">
+        <label for="male-radio">Male</label>
+      </p>
+      <p>
+        <input id="female-radio" type="radio" name="gender" value="female">
+        <label for="female-radio">Female</label>
+      </p>
+      <p>
+        <input id="other-radio" type="radio" name="gender" value="other">
+        <label for="other-radio">Other</label>
+      </p>
+    </p>
+    <p>
+      <label for="nationality">Nationality:</label></br>
+        <select name="nationality">
+          <option hidden="true">Please select ...</option>
+          <option value="indonesian">Indonesian</option>
+          <option value="singaporean">Singaporean</option>
+          <option value="malaysian">Malaysian</option>
+          <option value="australian">Australian</option>
+        </select>
+    </p>
+    <p>
+      <label for="language">Language Spoken:</label>
+      <p>
+        <input id="indonesia-checkbox" type="checkbox" name="language" value="indonesia">
+        <label for="indonesia-checkbox">Bahasa indonesia</label>
+      </p>
+      <p>
+        <input id="english-checkbox" type="checkbox" name="language" value="english">
+        <label for="english-checkbox">English</label>
+      </p>
+      <p>
+        <input id="other-checkbox" type="checkbox" name="language" value="english">
+        <label for="other-checkbox">Other</label>
+      </p>
+    </p>
+    <p>
+      <label for="Bio"> Bio:</label>
+      <p>
+        <textarea name="bio" rows="6" cols="30"></textarea>
+      </p>
+      <p>
+        <input type="submit" name="sign-up" value="Sign Up">
+      </p>
+    </p>
+
+  </Form>
+</body>
+</html>
